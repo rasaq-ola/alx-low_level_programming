@@ -1,3 +1,2 @@
 #!/bin/bash
-#include <stdio.h>
-gcc -S masm=intel $CFILE
+gcc -S main=intel $CFILE
